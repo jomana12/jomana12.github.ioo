@@ -1,0 +1,92 @@
+
+body{
+    background-color: rgb(233, 222, 125);
+    margin: 0px;
+    width: 1000px;
+    height: 1000px;
+   /*be5ly al content ymla al space klha*/
+    display: flex;
+   /* bt5ly al sora 3la gnb*/
+   justify-content: flex-start; 
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+.container{
+    width: 650px;
+    height: 730px;
+    background-color: rgba(247, 245, 245, 0.313);
+     margin: auto;
+    transform: rotateX(30deg);
+    border-radius: 20px;    
+}
+.feedback{
+    color: black;
+    font-family:serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+hr{
+    width: 400px;
+}
+.form{
+    margin-top: 30px;
+    padding-top: 13px;
+    padding-left: 128px;
+
+
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    outline: none;
+    background-color: rgba(237, 237, 237, 0.447);
+    border-radius: 15px;
+    transition-duration: 0.6s;
+    border: 0px;
+
+
+}
+label{
+    font-size: x-large;
+    font-family: serif;
+    color: black
+       
+}
+input[type="checkbox"]{
+    width: 50px;
+    
+}    
+
+:placeholder-shown{
+    font-size: large;
+    
+}
+input[type="checkbox"]:checked{
+  background-color: blueviolet;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: x-large;
+    border-radius: 50px;
+    border-style: hidden;
+    transition: all 0.3s ease;    
+}
+button:hover{
+    background-color:rgba(233, 133, 150, 0.85);
+    width: 400px;
+
+}
+.first.last.email.about.rate{
+margin-bottom: 20px;
+}
+
+
+
